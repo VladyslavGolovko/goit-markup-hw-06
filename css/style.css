@@ -575,8 +575,9 @@ img {
   border-radius: 4px;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
-  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);*/
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 15px 16px;
+  margin-right: 12px;
 }
 
 .email-input::placeholder {
@@ -591,7 +592,7 @@ img {
   border: transparent;
   border-radius: 4px;
   background-color: var(--accent-color);
-  margin-left: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .subscribe-btn-text {
@@ -601,6 +602,10 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--tertiary-text-color);
+}
+
+.subscribe-icon {
+  fill: currentColor;
 }
 
 /*.subscribe-btn {
